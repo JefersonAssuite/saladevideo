@@ -1,0 +1,145 @@
+*{
+    font-family: 'Roboto';
+}
+
+/*Cards Welcome*/
+.card .card-categoria{
+    font-size: 12px;
+    color: rgb(189, 46, 46);
+}
+
+.card .card-title{
+    color: rgb(189, 46, 46);
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+/*Style código*/
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 50px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.card .card-card-responsavel{
+    font-size: 14px;
+    color: rgb(189, 46, 46);
+}
+#events-container{
+    padding:50px;
+}
+
+#events-container h2{
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle{
+     color: #a41515;
+     margin-bottom: 30px;
+}
+
+#cards-container{
+    display: flex;
+}
+
+#events-container .card{
+flex: 1 1 24%;
+max-width: 25%;
+border-radius: 10px;
+padding: 0;
+margin: .5%;
+}
+/*HEADER*/
+header{
+    background-color: rgb(9, 34, 117);
+    border-bottom: 1px solid  #ccc;
+}
+
+#corpo-site{
+    background-color: #131f16;
+    
+}
+#welcome{
+    color: red;
+}
+
+/*Formulário Sala*/
+#container-form-sala{
+    margin-top: 20px;
+    text-align: left;
+    background-color: #ccc;
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    margin-left: 25%;
+    
+}
+
+#conteudo-sala h1{
+    color: red;
+}
+
+/*Formulário Login*/
+#container-form {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ccc;
+    width: 30%;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    margin-left: 35%;
+    
+}
+/*Botao*/
+
+
+#enviar{
+    background-color: #1fe73a;
+    border:2px solid #246d34c0;
+}
+
+#enviar:hover{
+    background-color: #33e04a;
+    border:2px solid #093813;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+#navbar img{
+
+    width: 40px;
+    
+}
+
+#navbar{
+    justify-content: space-between;
+    background-color: rgb(9, 34, 117);
+    padding: 5px 0;
+    
+}
+
+#navbar a {
+    font-size:14px;
+    color:#fdfdfd;
+}
+
+#navbar a:hover{
+    color: #f10606;
+}
