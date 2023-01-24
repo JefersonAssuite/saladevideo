@@ -1,3 +1,13 @@
+
+Dependencias para rodar o Laravel
+Instalar o Composer 
+Ter um Servidor "Xamp/outro da sua preferência"
+
+após o Git Clone
+utilizar o comando "Composer Update" no terminal 
+no arquivo ".env" ou config - Banco - configurar o banco de dados normalmente localizado na linha de Número 14 (DB_DATABASE)
+e utilizar o comando "php artisan migrate" para migrar as tabelas já criadas.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -62,3 +72,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
